@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RESET */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--MainColor);
+}
+
+:root {
+  --title-font: "Quicksand", sans-serif;
+  --title-size: 48px;
+  --text-font: "Quicksand", sans-serif;
+  --text-size: 18px;
+  box-sizing: border-box;
+  --MainColor: #14213d;
+  --color2: #ffffff;
+  --color3: #ffffff;
+  --color4: #ffffff;
+  --color5: #ffffff;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 48px;
+}
+p {
+  font-family: var(--text-font);
+  font-weight: 400;
+}
+.a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--color2);
+}
